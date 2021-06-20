@@ -1,0 +1,40 @@
+.contentContainer {
+    margin: 0rem 1rem;
+
+}
+
+.location {
+    display: flex;
+}
+
+.tempDisplay {
+    display: flex;
+}
+
+
+.nowBox{
+    margin-left: 7px;
+}
+
+.soilBox{
+    margin-left: 1.5rem;
+}
+
+.nowAndSoilTemp {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.degree {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bottomInfo{
+    font-size: 13px;
+}
+
+.oneMeterDegree {
+    margin-left: 1.25rem;
+}  

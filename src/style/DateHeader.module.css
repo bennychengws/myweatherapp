@@ -1,0 +1,38 @@
+.container {
+    color: white;
+    margin: 2rem 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.weekday {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.date {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.day {
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 3px
+}
+
+.monthYear {
+    font-weight: bold;
+    align-self: center;
+    font-size: 15px;
+}
+
+.childrenText {
+    color:blue;
+}
