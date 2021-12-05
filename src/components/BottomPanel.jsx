@@ -16,14 +16,12 @@ const BottomPanel = () => {
         "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en"
       );
       // console.log(res.data)
-      console.log(weatherTemp);
       setWeatherTemp(() => ({
         // ...weatherTemp,
         seaTemp: res.data.seaTemp.value,
         soilTemp1: res.data.soilTemp[0].value,
         soilTemp2: res.data.soilTemp[1].value,
       }));
-      console.log(weatherTemp);
     }
     fetchData();
   }, []);

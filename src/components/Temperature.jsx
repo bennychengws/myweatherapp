@@ -2,6 +2,7 @@
 // import React, {useState, useEffect} from "react";
 import moduleCss from "../style/Temperature.module.css";
 // import Weather from './icons/Weather';
+import thermometer from "../thermometer.png"
 
 const Temperature = ({data}) => {
   // const [seaTemp, setseaTemp] = useState()  
@@ -11,8 +12,8 @@ const Temperature = ({data}) => {
     <div className={moduleCss.container}>
       <div className={moduleCss.contentContainer}>
         <div className={moduleCss.tempDisplay}>
-          <div>
-            <svg
+          <img src={thermometer} alt="thermometer" width="100px" height="100px">
+            {/* <svg
               className={moduleCss.weatherIcon}
               width="72"
               height="72"
@@ -48,9 +49,9 @@ const Temperature = ({data}) => {
                   width="56"
                   height="56"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -81,9 +82,9 @@ const Temperature = ({data}) => {
                   width="48"
                   height="28"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -108,8 +109,8 @@ const Temperature = ({data}) => {
                   />
                 </filter>
               </defs>
-            </svg>
-          </div>
+            </svg> */}
+          </img>
           <div className={moduleCss.nowBox}>
             <div className={moduleCss.nowAndSoilTemp}>Now</div>
             <div>
